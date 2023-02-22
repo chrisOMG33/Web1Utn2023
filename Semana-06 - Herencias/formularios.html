@@ -11,17 +11,82 @@
     <form action="" method="get">
         <div class="input">
             <label for="id">Nombre:</label>
-            <input type="text" name="id" id="id">
+            <input type="text" name="id" id="id" placeholder="Digite su nombre" maxlength="20">
         </div>
-        
+
         <div class="input">
-            <label for="">Password:</label>
-            <input type="password" name="pass" id="pass">
+            <label for="id">Cédula:</label>
+            <input type="number" name="number" id="number" placeholder="Digite su cédula">
+
+        <div class="input">
+            <label for="">Contraseña:</label>
+            <input type="password" name="pass" id="pass" placeholder="Digite su contraseña">
         </div>
         
 
-        <input type="submit" value="Enviar"> 
-        <input type="reset" value="Limpiar">
+        <div class="input">
+            <label for="color">Color:</label>
+            <input type="color" name="color" id="color">
+
+            <div class="input">
+                <label for="fecha">Fecha:</label>
+                <input type="date" name="fecha" id="fecha">
+                
+
+                <div class="input">
+                    <label for="hora">Hora:</label>
+                    <input type="time" name="hora" id="hora">
+
+                    <div class="input">
+                        <label for="correo">Correo Eléctronico:</label>
+                        <input type="email" name="correo" id="correo">
+
+                    <div class="input">
+                        <label for="url">Url:</label>
+                        <input type="url" name="url" id="url">
+
+                            <div class="input">
+                                <label for="file">Archivo:</label>
+                                <input type="file" name="file" id="file">
+
+                                <div class="input">
+                                    <label for="fecha">Edad:</label>
+                                    <input type="range" name="edad" id="edad" max="90" min="15">
+                                    
+                                
+
+                                <div class="input">
+                                    <label for="file">Descripción:</label>
+                                    <textarea name="Descripcion" id="Descripcion" cols="30" rows="10"></textarea>
+                                    
+                                    <div class="input">
+                                        <label for="file">Pizza:</label>
+                                        <input type="radio" name="comida" value="1">
+
+                                        <label for="file">Hamburguesa:</label>
+                                        <input type="radio" name="comida" value="2">
+
+                                        <label for="file">Tacos:</label>
+                                        <input type="radio" name="comida" value="3">
+
+                                        <label for="file">Hot Dogs:</label>
+                                        <input type="radio" name="comida" value="4">
+
+                                    <div class="input">
+                                        <label for="file">Escoja Marca:</label>
+                                        <select name="marca" id="marca">
+
+                                        <option value="1">Toyota</option>
+                                        <option value="2">Nissan</option>
+                                        <option value="3" selected>Mitsubishi</option>
+                                        <option value="4">Audi</option>
+                                        <option value="5">MB2</option>
+                                    </select>
+                                        
+
+        </div>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpiar">
     </form>
 </body>
 </html>
