@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://thumbs.dreamstime.com/b/mitad-entre-verde-y-blanco-108053701.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.row2{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 auto;
+    left: 35%;
+    bottom: 50%;
+    width: 500px;
+    height: 200px;
+}
+

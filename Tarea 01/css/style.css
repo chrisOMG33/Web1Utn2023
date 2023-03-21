@@ -1,0 +1,86 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10%;
+    margin: 0;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 20%;
+    
+}
+.row{
+display: flex;
+flex-direction: column;
+justify-content: content;
+padding-left: 150px;
+background-color: white;
+}
+
+.imagen-derecha{
+   position: absolute;
+   justify-content: center;
+   background-color: white;
+   right: 235px;
+   top: 165px;
+
+   
+}
+
+a.Face{
+
+flex: 6;
+gap: 10px;
+border: 1px none #3B5999;
+border-radius: 5px;
+padding: 10px;
+justify-content: center;
+display: flex;
+align-items: center;
+background-color: #3B5999;
+color: white;
+}
+a.Twitt{
+
+    flex: 6;
+    gap: 10px;
+    border: 1px none black;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: white;
+    
+    
+    }
+
+    a.Goo{
+
+        flex: 6;
+        gap: 10px;
+        border: 1px none black;
+        border-radius: 5px;
+        padding: 10px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: red;
+        color: white;
+        }
+
+.carga{
+display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+padding-left: 150px;
+background-color: white;
+}
