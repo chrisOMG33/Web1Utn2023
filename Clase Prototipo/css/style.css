@@ -1,0 +1,17 @@
+.imagen-izquierda {
+    position: absolute;
+    display: flex;
+   justify-content: center;
+   background-color: white;
+   width: 150px;
+   height: 80%;
+   right: 550;
+   top: 64px;
+   bottom: 20%;
+
+}
+.corousel{
+    position: absolute;
+    display: flex;
+    right: -100px;
+}
