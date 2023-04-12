@@ -2,26 +2,144 @@
 <html lang="es">
 <head>
 	<title>Tech Services</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<meta charset="UTF-8">
 	<meta name="title" content="Tech Services">
 	<meta name="description”" content="Descripcion de la pagina">
 </head>
+      <!-- Importar estilos de Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+    <body>
 
-<body>
-    <header>
-        <nav>
-           
-            <li><a href="index.html #Acerca">Acerca de</a></li>
-            <li><a href="index.html #Contacto">Contacto</a></li>
-            <img src="img/Tech Services.png"250px" height=250px" alt="Tech Services"</img>
-	</body>
 
-<section class="textos-header">
-            <h1>Bienvenido a Tech Services</h1>
-            <h2><Param>Productos por categorias</Param></h2>
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #fff;"></path>
-            </svg></div>
+    <!-- top navbar -->
+
+    <div class="home-section">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/Tech Services.png" alt="" width="55px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html/#Servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #1c1c50;">
+                      <li><a class="dropdown-item" href="#">Telefonos</a></li>
+                      <li><a class="dropdown-item" href="#">Computadoras</a></li>
+                      <li><a class="dropdown-item" href="#">Figuras</a></li>
+                      <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html/">Nosotros</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Contactanos</a>
+                  </li>
+                </ul>
+               
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" id="search-btn">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar -->
+          
+          
+      <div class="container">
+        <h1>Tech Services</h1>
+        <!-- Carrusel de Bootstrap -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicadores de las diapositivas -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+    
+          <!-- Diapositivas del carrusel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/apple.png" class="d-block w-100" alt="Diapositiva 1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/hp.jpg" class="d-block w-100" alt="Diapositiva 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/asus.jpg" class="d-block w-100" alt="Diapositiva 3">
+            </div>
+          </div>
+    
+          <!-- Controles del carrusel -->
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Importar scripts de Bootstrap -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <footer class="bg-dark text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Información de contacto</h3>
+              <p>Dirección: 123 Calle Principal, Ciudad</p>
+              <p>Teléfono: (555) 555-5555</p>
+              <p>Correo electrónico: info@ejemplo.com</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Enlaces útiles</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Página principal</a></li>
+                <li><a href="#">Acerca de nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Síguenos en las redes sociales</h3>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    </body>
+    </html>
+    
