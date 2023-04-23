@@ -1,3 +1,6 @@
 function redireccion(){
-    location.href = "PaginaPrincipal.html"
+    location.href = "Inicio.html"
+}
+function redireccionP(){
+    location.href = "Productos.html"
 }

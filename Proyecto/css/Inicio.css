@@ -1,0 +1,94 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+  }
+/* Logo de nuestra pagina */
+.logo img {
+    height: 70px;
+    padding: 10px;
+}
+/* Aqui tenemos el encabezado de la pagina */
+#navbarNav {
+
+display: flex;
+align-items: end;
+justify-content: right;
+
+}
+
+
+.nav-link {
+    font-weight: bold;
+  }
+  
+.nav-link:hover {
+    color: #fff;
+    background-color: #0d6efd;
+  }
+  
+.navbar-toggler-icon {
+    background-image: url("/Proyecto/img/Tech\ Services.png");
+  }
+  
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+div li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+body{
+    background-color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+img{
+    width: 100%;
+    display: block;
+}
+
+/* Footer */
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+  

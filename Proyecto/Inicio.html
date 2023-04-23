@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/stylesprincipal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-mXr0rnNUcJbTP5rs5mv1z5K5+OjC/+57xz1BxVoXYBvoXKxyLIZ6Vz+6MhJNMXzN6ZGMY7Vdhu+VVa/7y9XQDQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js" integrity="sha512-MeLhQ2ffHJ/wn9XjKVoPjiGJn5m5PPBz5Q5g5bKz57lIKn5mqhSOvoX+lDxKmxlF1GMkuvU6VzP6Z0UlrZDysg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Encabezado pagina -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="logo">
+            <img class="techfondo" src="img/Tech Services.png" alt="tech">
+          </div>
+          <a class="navbar-brand" href="#">Tech Services</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Acerca de</a>
+              </li>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+
+        <!-- Carouseles de noticias en inicio -->
+        <div class="carousel-inner p-0 text-center">
+          <div class="carousel-item active">
+            <img src="https://sm.pcmag.com/t/pcmag_uk/review/l/lenovo-leg/lenovo-legion-5-pro_g1jv.1920.jpg" class="d-block w-100" alt="Lenovo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Noticias Lenovo</h5>
+              <p>Lo nuevo en lenovo</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://i.extremetech.com/imagery/content-types/00O7PTzmIFEL5WyBOHBFF08/hero-image.fill.size_1200x675.jpg" class="d-block w-100" alt="Apple">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Noticias Apple</h5>
+              <p>Lo nuevo en Apple</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://webadictos.com/hp-spectre/hp-spectre-12-3_right-facing-profile/" class="d-block w-100" alt="HP">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Noticias HP</h5>
+              <p>Lo nuevo en HP</p>
+            </div>
+          </div>
+
+          <!-- Boton de carousel -->
+          <div class="carousel-caption d-flex justify-content-center align-items-center top-50 bottom-10px">
+            <button type="button" class="btn btn-outline-primary" onclick="redireccionP()">Ver productos</button>
+            <script src="link.js"></script>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Teléfonos</h4>
+                <p>8296-3122 | 6362-7184</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo Electrónico</h4>
+                <p>techservices@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Dirección</h4>
+                <p>Puntarenas, Costa Rica</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Marvin Vasquez | Christopher Carmona | William Delgado</h2>
+    </footer>
+      
+</body>
+</html>

@@ -10,14 +10,15 @@ section{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: cornflowerblue
+    background-image: url(/Proyecto/img/loginfondo.jpg);
 }
 
 .from-box{
     position: relative;
-    width: 900px;
-    height: 700px;
-    background: red;
+    width: 600px;
+    height: 650px;
+    border-radius: 40px;
+    background: #23518C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +32,7 @@ h2{
 
 .inputbox{
     position: relative;
-    margin: 30px 0;
+    margin: 20px 0;
     width: 310px;
     border-bottom: 2px solid white;
 }
@@ -71,28 +72,6 @@ input:focus ~ :valid{
     top: 20px;
 }
 
-.forget{
-    margin: -15px 0 15px;
-    font-size: .9em;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-.forget label input{
-    margin: 3px;
-}
-
-.forget label a{
-    color: white;
-    text-decoration: none;
-}
-
-.forget label a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
 button{
     position: absolute;
     width: 60%;
@@ -127,12 +106,5 @@ button{
 .register p a:hover{
     text-decoration: underline;
     bottom: 50%;
+    color: red;
 }
-/* .imagen {
-    position: absolute;
-    display: block;
-    margin: auto;
-    border-radius: 5px;
-    right: 20%;
-    top: 20%;
-} */

@@ -1,0 +1,156 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+  }
+/* Logo de nuestra pagina */
+.logo img {
+    height: 70px;
+    padding: 10px;
+}
+/* Aqui tenemos el encabezado de la pagina */
+#navbarNav {
+
+display: flex;
+align-items: end;
+justify-content: right;
+
+}
+
+
+.nav-link {
+    font-weight: bold;
+  }
+  
+.nav-link:hover {
+    color: #fff;
+    background-color: #0d6efd;
+  }
+  
+.navbar-toggler-icon {
+    background-image: url("/Proyecto/img/Tech\ Services.png");
+  }
+  
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+div li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+body{
+    background-color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+img{
+    width: 100%;
+    display: block;
+}
+
+
+h1 {
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card-header{
+    height: 200px;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+.card-title{
+    text-align: center;
+    margin: 0;
+}
+.card-description{
+    flex-grow: 1;
+}
+.card-header img{
+    border-radius: 10px 10px 0 0;
+}
+.card-body{
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    padding: 20px 15px;
+    text-align: justify;
+    border: 1px solid #ccc;
+}
+.btn{
+    display: block;
+    background-color: blue;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+@media(min-width: 480px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:  10px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+/* Carousel */
