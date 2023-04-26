@@ -5,8 +5,9 @@
   }
 /* Logo de nuestra pagina */
 .logo img {
-    height: 70px;
-    padding: 10px;
+    width: 170px;
+    height: 170px;
+    padding: 1px;
 }
 /* Aqui tenemos el encabezado de la pagina */
 #navbarNav {
@@ -91,7 +92,7 @@ h1 {
 }
 .btn{
     display: block;
-    background-color: blue;
+    background-color: #0d6efd;
     padding: 5px;
     text-decoration: none;
     color: #fff;
@@ -137,7 +138,7 @@ footer{
 
 .content-foo h4{
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #F25252;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -153,4 +154,30 @@ footer{
     color: #9e9797;
 }
 
-/* Carousel */
+
+.icon-hover:hover {
+    border-color: #3b71ca !important;
+    background-color: white !important;
+  }
+  
+  .icon-hover:hover i {
+    color: #3b71ca !important;
+  }
+
+
+ol, ul {
+    padding-left: 0rem;
+}
+.container-fluid{
+
+    height: 90px;
+
+
+
+}
+
+.navbar-brand{
+
+    padding-left: 9px;
+    
+}
